@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primrGold">#B7935F</color>
     <color name="darkGold">#876C46</color>
+    <color name="transparent">#00000000</color>
 </resources>

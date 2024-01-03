@@ -2,17 +2,19 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.IslamiProject" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-         <item name="colorPrimary">@color/primrGold</item>
+        <item name="colorPrimary">@color/primrGold</item>
         <item name="colorPrimaryVariant">@color/darkGold</item>
         <item name="colorOnPrimary">@color/black</item>
 
     </style>
 
     <style name="Theme.IslamiProject" parent="Base.Theme.IslamiProject" />
-    <style name="noActionBar" parent="Theme.IslamiProject" >
+
+    <style name="noActionBar" parent="Theme.IslamiProject">
         <item name="windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
     </style>
+
     <style name="bottomNavigationBar">
         <item name="android:background">@color/primrGold</item>
     </style>

@@ -25,5 +25,14 @@ class SuraNameAdapter(val itmes:List<String>):RecyclerView.Adapter<SuraNameAdapt
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val suraName = itmes[position]
         holder.chaName.setText(suraName)
+        if (onItemClickListener!=null){
+            holder.itemView.setOnClickListener {
+                onItemClickListener?.onItemClick(position,suraName)
+            }
+        }
    }
+    var onItemClickListener :OnItemClickListener? = null
+    interface OnItemClickListener{
+        fun onItemClick(postion:Int,name:String)
+    }
 }
