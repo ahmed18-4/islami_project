@@ -5,6 +5,7 @@
         <item name="colorPrimary">@color/primrGold</item>
         <item name="colorPrimaryVariant">@color/darkGold</item>
         <item name="colorOnPrimary">@color/black</item>
+        <item name="homeAsUpIndicator">@drawable/ic_back</item>
 
     </style>
 
